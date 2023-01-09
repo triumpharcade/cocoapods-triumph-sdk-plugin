@@ -1,7 +1,0 @@
-{
-    "gem": "cocoapods-triumph-sdk-plugin",
-    "name": "CocoaPods Triumph Sdk Plugin",
-    "author": "Alex Oakley",
-    "url": "https://github.com/triumpharcade/cocoapods-triumph-sdk-plugin",
-    "description": "Helper plugin for installation of TriumphSDK as CocoaPod"
-  }
