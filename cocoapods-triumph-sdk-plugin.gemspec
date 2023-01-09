@@ -8,12 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsTriumphSdkPlugin::VERSION
   spec.authors       = ['Alex Oakley']
   spec.email         = ['alex@triumpharcade.com']
-  spec.description   = %q{A short description of cocoapods-triumph-sdk-plugin.}
-  spec.summary       = %q{A longer description of cocoapods-triumph-sdk-plugin.}
-  spec.homepage      = 'https://github.com/EXAMPLE/cocoapods-triumph-sdk-plugin'
+  spec.description   = %q{Helper plugin for installation of TriumphSDK as CocoaPod}
+  spec.summary       = %q{Helper plugin for installation of TriumphSDK as CocoaPod}
+  spec.homepage      = 'https://github.com/triumpharcade/cocoapods-triumph-sdk-plugin'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files = Dir['lib/**/*']
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
