@@ -1,6 +1,6 @@
 # cocoapods-triumph-sdk-plugin
 
-A description of cocoapods-triumph-sdk-plugin.
+Runs after installing TriumphSDK in the Swift installation process. Postbuild script - neccesary for the SDK to work. 
 
 ## Installation
 
